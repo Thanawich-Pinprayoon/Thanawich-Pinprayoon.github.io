@@ -1,9 +1,63 @@
+
+body {
+    background-image: url("/me_files/Background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    cursor: url("/me_files/mec410.ani"), url("/me_files/mec410.png"), default !important;
+} 
 .top {
     position: relative;
-    background-color: #ffffff;
+    background: rgb(248, 246, 246);
     height: 68px;
     padding-top: 20px;
     line-height: 50px;
     overflow: hidden;
     z-index: 2;
 }
+.top_name {
+    font-family: fontawesome;
+    text-decoration: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 37px;
+    letter-spacing: 3px;
+    color: #555555;
+    display: block;
+    position: absolute;
+    top: 20px;
+    margin-left: 30px;
+}
+.github{
+    position: absolute;
+    top: -13px;
+    margin-left: 700px;
+}
+.io {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: #2e0404;
+    display: block;
+    position: absolute;
+    top: 17px;
+    margin-left: 900px;
+}
+.profile {
+    margin-left: 0px;
+}
+
+.snowflake {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
