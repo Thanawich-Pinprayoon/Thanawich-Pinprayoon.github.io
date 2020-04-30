@@ -1,140 +1,133 @@
-
 body {
-    background-image: url("/me_files/Background.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    cursor: url("/me_files/mec410.ani"), url("/me_files/mec410.png"), default !important;
-} 
+  background-image: url("/me_files/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: url("/me_files/mec410.ani"), url("/me_files/mec410.png"), default !important;
+}
 .top {
-    position: relative;
-    background: rgb(248, 246, 246);
-    height: 68px;
-    padding-top: 20px;
-    line-height: 50px;
-    overflow: hidden;
-    z-index: 2;
+  position: relative;
+  background: rgb(248, 246, 246);
+  height: 68px;
+  padding-top: 20px;
+  line-height: 50px;
+  overflow: hidden;
+  z-index: 2;
 }
 .top_name {
-    font-family: fontawesome;
-    text-decoration: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 37px;
-    letter-spacing: 3px;
-    color: #555555;
-    display: block;
-    position: absolute;
-    top: 20px;
-    margin-left: 30px;
+  font-family: fontawesome;
+  text-decoration: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 37px;
+  letter-spacing: 3px;
+  color: #555555;
+  display: block;
+  position: absolute;
+  top: 20px;
+  margin-left: 30px;
 }
-.github{
-    position: absolute;
-    top: -13px;
-    margin-left: 700px;
+.github {
+  position: absolute;
+  top: -13px;
+  margin-left: 700px;
 }
 .io {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    text-decoration: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 45px;
-    letter-spacing: 3px;
-    color: #2e0404;
-    display: block;
-    position: absolute;
-    top: 17px;
-    margin-left: 900px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-decoration: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 45px;
+  letter-spacing: 3px;
+  color: #2e0404;
+  display: block;
+  position: absolute;
+  top: 17px;
+  margin-left: 900px;
 }
 .profile {
-    margin-left: 0px;
-    cursor: not-allowed;
+  margin-left: 0px;
+  cursor: not-allowed;
 }
 .snowflake {
-    position: fixed;
-    background-color: rgb(255, 255, 255);
-    user-select: none;
-    z-index: 1000;
-    pointer-events: none;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-  }
-  #menuToggle
-{
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  user-select: none;
+  z-index: 1000;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+#menuToggle {
   display: block;
   position: relative;
   top: 50px;
   left: 1450px;
-  
+
   z-index: 1;
-  
+
   -webkit-user-select: none;
   user-select: none;
 }
 
-#menuToggle a
-{
+#menuToggle a {
   text-decoration: none;
   color: #232323;
-  
+
   transition: color 1s ease;
 }
 
-#menuToggle a:hover
-{
+#menuToggle a:hover {
   color: tomato;
 }
+.hamberger {
+  margin-left: 20%;
+}
 
-
-#menuToggle input
-{
+#menuToggle input {
   display: block;
   width: 40px;
   height: 32px;
   position: absolute;
   top: -7px;
   left: -5px;
-  
+
   cursor: pointer;
-  
+
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
-  
+
   -webkit-touch-callout: none;
 }
 
 /*
  * Just a quick hamburger
  */
-#menuToggle span
-{
+#menuToggle span {
   display: block;
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  
+
   background: #cdcdcd;
   border-radius: 3px;
-  
+
   z-index: 1;
-  
+
   transform-origin: 4px 0px;
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
@@ -142,8 +135,7 @@ body {
  * Transform all the slices of hamburger
  * into a crossmark.
  */
-#menuToggle input:checked ~ span
-{
+#menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(90deg) translate(-2px, -1px);
   background: #232323;
@@ -152,18 +144,16 @@ body {
 /*
  * But let's hide the middle one.
  */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-    opacity: 1;
-    transform: rotate(90deg) translate(-2px, -8px);
-    background: #232323;
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 1;
+  transform: rotate(90deg) translate(-2px, -8px);
+  background: #232323;
 }
 
 /*
  * Ohyeah and the last one should go the other direction
  */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
+#menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(90deg) translate(-7px, -15px);
 }
 
@@ -171,27 +161,25 @@ body {
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
-{
+#menu {
   position: absolute;
   width: 300px;
   margin: -100px 0 0 200px;
   padding: 50px;
   padding-top: 125px;
-  
+
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
-  
+
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,-0.5);
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, -0.5);
 }
 
-#menu li
-{
+#menu li {
   padding: 10px 0;
   font-size: 22px;
 }
@@ -199,7 +187,6 @@ body {
 /*
  * And let's slide it in from the left
  */
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul {
   transform: none;
 }
