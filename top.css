@@ -36,6 +36,7 @@ body {
   font-family: "Comic Sans MS", cursive, sans-serif;
   text-decoration: none;
   line-height: 1;
+  font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 45px;
