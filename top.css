@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: url("/me_files/mec410.ani"), url("/me_files/mec410.png"), default !important;
+  height: 100%;
 }
 .top {
   position: relative;
@@ -49,6 +50,16 @@ body {
 .profile {
   margin-left: 0px;
   cursor: not-allowed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 5px solid #555555;
+  border-radius: 100px;
+  height: 270px;
+  width: 100px;
 }
 .snowflake {
   position: fixed;
