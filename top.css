@@ -202,5 +202,11 @@ body {
 
 .graduated {
   color: rgb(255, 255, 255);
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-left: 5%;
+  border: 5px solid #555555;
+  border-radius: 100px;
+  width: 15%;
+  height: 5%;
+  background-color: rgb(95, 95, 95);
 }
