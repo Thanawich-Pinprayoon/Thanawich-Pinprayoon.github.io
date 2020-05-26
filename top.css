@@ -207,3 +207,13 @@ body {
   height: 5%;
   background-color: rgb(95, 95, 95);
 }
+.skill {
+  color: rgb(255, 255, 255);
+  margin-top: 5%;
+  margin-left: 65%;
+  border: 5px solid #555555;
+  border-radius: 100px;
+  width: 15%;
+  height: 15%;
+  background-color: rgb(95, 95, 95);
+}
