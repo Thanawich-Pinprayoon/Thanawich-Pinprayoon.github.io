@@ -210,12 +210,12 @@ body {
   color: rgb(255, 255, 255);
   margin-top: 5%;
   margin-left: 75%;
-  border: 15px solid #555555;
-  border-radius: 100px;
+  border: 5px solid #555555;
+  border-radius: 10px;
   width: 8%;
   height: 22%;
   background-color: rgb(95, 95, 95);
 }
 .skill-list {
-  margin-left: 2px;
+  margin-left: 12px;
 }
