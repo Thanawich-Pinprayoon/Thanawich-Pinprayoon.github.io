@@ -201,9 +201,9 @@ body {
   margin-top: 5%;
   margin-left: 5%;
   border: 5px solid #555555;
-  border-radius: 100px;
+  border-radius: 25px;
   width: 15%;
-  height: 5%;
+  height: 15%;
   background-color: rgb(95, 95, 95);
 }
 .skill {
