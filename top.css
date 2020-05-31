@@ -217,5 +217,6 @@ body {
   background-color: rgb(95, 95, 95);
 }
 .skill-list {
-  margin-left: 12px;
+  margin-left: 30px;
+  font-size: 14px;
 }
