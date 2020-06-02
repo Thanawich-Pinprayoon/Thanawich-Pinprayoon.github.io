@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: url("/me_files/mec410.ani"), url("/me_files/mec410.png"), default !important;
-  height: 100%;
+  height: 1200px;
   width: 980px;
   margin: 0 auto;
 }
@@ -209,17 +209,19 @@ body {
   background-color: rgb(95, 95, 95);
 }
 .skill {
+  position: absolute;
   color: rgb(255, 255, 255);
-  margin-top: -18%;
-  margin-left: 75%;
+  margin-top: -7%;
+  margin-left: 45%;
   border: 5px solid #555555;
   border-radius: 10px;
-  width: 18%;
-  height: 22%;
+  width: 12%;
+  height: 29%;
   background-color: rgb(95, 95, 95);
   font-size: 90%;
 }
 .skill-list {
   margin-left: 15%;
+  margin-top: -2%;
   font-size: 100%;
 }
